@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kochwelt</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Viga&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <header id="header">
-        <div id="header_menu">
-<a href="">Start</a>
-<a href="">Rezept des Tages</a>
-<a href="">Kontakte</a>
-<a href="">Impressum</a>
-        </div>
-        <div><img src="./logo.png" alt="Logo der Kochwelt"></div>
+        <img src="./logo.png" alt="Logo der Kochwelt">
+        <nav id="header_menu">
+            <a class="navlink" href="">Start</a>
+            <a class="navlink" href="">Rezept des Tages</a>
+            <a class="navlink" href="">Kontakte</a>
+            <a class="navlink" href="">Impressum</a>
+        </nav>
+
     </header>
-    <main id="main"></main>
+    <main id="main">
+        <section class="highlight-recipe">
+            <img src="./img/croissant.jpg" alt="Bild des Heiglight Rezept">
+            <div class="heiglight-text">
+                <h2>Französische Croissants</h2>
+                <p> Schmackhafte Croissants können auch zu Hause sehr einfach gebacken werden.
+                    Mit ca. 30 Minuten Aufwand kannst du ein wundervolles Frühstück zaubern.
+                </p>
+                <button class="highlight-text button">Rezept Öffnen</button>
+            </div>
+
+        </section>
+    </main>
     <footer id="footer"></footer>
-    
+
 </body>
-    <script src="javascript.js"></script>
+<script src="javascript.js"></script>
+
 </html>
