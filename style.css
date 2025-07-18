@@ -147,6 +147,7 @@ nav {
   font-weight: 600;
   color: #000000;
 }
+/* Wok vs Pfanne */
 .article-section {
   display: flex;
   justify-content: center;
@@ -196,4 +197,65 @@ nav {
 
 .article-text button:hover {
   background-color: #006600;
+}
+/* footer */
+
+footer {
+  background-color: #1e1e1e;
+  padding: 30px 20px;
+  color: #ffffff;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-left img {
+  height: 40px;
+}
+
+.footer-brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-socials .social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2 ease;
+}
+
+.footer-socials .social img {
+  height: 20px;
+}
+
+.social.facebook {
+  background-color: #1877f2;
+}
+
+.social.instagram {
+  background-color: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.footer-socials .social:hover {
+  transform: scale(1,05);
 }
